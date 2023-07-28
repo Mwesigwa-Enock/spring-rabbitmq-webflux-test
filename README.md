@@ -8,8 +8,7 @@ has a consumer which reads off the messages and prints (logs) them on the consol
 (and to a log file).
 
 # Basics
-## Versions
-### Java
+### Java Version
 The application has been developed using Java version
 ```
 11
@@ -48,9 +47,13 @@ Alternatively, one could use docker to run a RabbitMQ docker image if they don't
 There is a docker file (docker-compose.yml) which is in the project directory. You need to run the following command 
 while in the project root directory.
 
+To download docker, please use the following [docker download](https://www.docker.com/products/docker-desktop/)
+
 ```shell
 docker-compose up
 ```
+
+
 
 Then visit the following link [rabbitmq](http://localhost:15672) to access the management portal, and the credentials remain
 the same ```guest``` / ```guest```
