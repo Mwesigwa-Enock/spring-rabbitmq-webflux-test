@@ -43,11 +43,11 @@ Once installed successfully, you are able to access the RabbitMQ Management port
 - password: ```guest```
 
 ### Docker
-Alternatively, one could use docker to run a RabbitMQ docker image if they don't wish to have it installed locally
+To download docker, please use the following [docker download](https://www.docker.com/products/docker-desktop/)
+
+One could use docker to run a RabbitMQ docker image if they don't wish to have it installed locally
 There is a docker file (docker-compose.yml) which is in the project directory. You need to run the following command 
 while in the project root directory.
-
-To download docker, please use the following [docker download](https://www.docker.com/products/docker-desktop/)
 
 ```shell
 docker-compose up
